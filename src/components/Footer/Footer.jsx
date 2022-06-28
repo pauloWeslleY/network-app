@@ -9,6 +9,7 @@ import {
    Divider,
    Icon,
    Text,
+   chakra,
 } from '@chakra-ui/react';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { FiTwitter } from 'react-icons/fi';
@@ -167,7 +168,16 @@ export const Footer = () => {
                      color: 'white',
                   }}
                >
-                  &copy;Copyright. All rights reserved.
+                  &copy;Copyright. All rights reserved.{' | '}
+                  <chakra.p as="cite" fontWeight="bold">
+                     Created by{' '}
+                     <chakra.a
+                        target="_blank"
+                        href="https://weslleylima.vercel.app"
+                     >
+                        Weslley Lima
+                     </chakra.a>
+                  </chakra.p>
                </Text>
             </VStack>
          </Box>
