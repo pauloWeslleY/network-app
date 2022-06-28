@@ -25,14 +25,18 @@ export const Hero = () => {
                      textTransform="uppercase"
                   >
                      Build Your new{' '}
-                     <chakra.span color="blue.400" textDecor="underline">
+                     <chakra.span color="cyan.500" textDecor="underline">
                         Saas
                      </chakra.span>
                   </Heading>
                   <Button
-                     colorScheme="brand"
+                     variant="ghost"
                      textTransform="uppercase"
                      w="fit-content"
+                     color="cyan.500"
+                     _dark={{
+                        color: 'white',
+                     }}
                   >
                      Start project
                   </Button>

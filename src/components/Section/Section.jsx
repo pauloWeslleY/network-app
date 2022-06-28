@@ -56,9 +56,9 @@ export const Section = () => {
          }}
          py={20}
          mx="auto"
-         bg="white"
+         bg="gray.500"
          _dark={{
-            bg: 'gray.800',
+            bg: 'cyan.800',
          }}
          shadow="xl"
       >

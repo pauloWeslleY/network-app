@@ -18,9 +18,9 @@ export const Footer = () => {
    return (
       <>
          <Box
-            bg="white"
+            bg="gray.500"
             _dark={{
-               bg: 'gray.600',
+               bg: 'blue.900',
             }}
          >
             <Stack
@@ -171,7 +171,6 @@ export const Footer = () => {
                </Text>
             </VStack>
          </Box>
-         ;
       </>
    );
 };

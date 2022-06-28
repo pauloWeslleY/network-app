@@ -6,7 +6,7 @@ export const Header = () => {
          <Box
             bg="gray.50"
             _dark={{
-               bg: 'gray.800',
+               bg: 'blue.900',
             }}
          >
             <Box
@@ -85,14 +85,14 @@ export const Header = () => {
                      _light={{
                         color: 'white',
                      }}
-                     bg="brand.600"
+                     bg="cyan.600"
                      _dark={{
-                        bg: 'brand.500',
+                        bg: 'cyan.900',
                      }}
                      _hover={{
-                        bg: 'brand.700',
+                        bg: 'blue.600',
                         _dark: {
-                           bg: 'brand.600',
+                           bg: 'blue.600',
                         },
                      }}
                   >
@@ -109,10 +109,10 @@ export const Header = () => {
                      fontWeight="bold"
                      rounded="md"
                      shadow="md"
-                     color="red.600"
+                     color="cyan.600"
                      bg="white"
                      _hover={{
-                        bg: 'brand.50',
+                        bg: 'white_lighten.50',
                      }}
                   >
                      Learn More

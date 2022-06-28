@@ -1,0 +1,22 @@
+@import './variables';
+
+//? <=| === === === === RESET === === === === |=>
+*,
+*::after,
+*::before {
+   margin: 0;
+   box-sizing: border-box;
+}
+html {
+   scroll-behavior: smooth;
+}
+body {
+   font-size: 1.6rem;
+   font-family: 'Poppins', sans-serif;
+}
+li {
+   list-style: none;
+}
+button {
+   cursor: pointer;
+}

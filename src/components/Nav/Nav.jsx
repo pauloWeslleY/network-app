@@ -14,7 +14,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 import { ColorModeSwitcher } from '../../ColorModeSwitcher';
 
 export const Nav = () => {
-   const bg = useColorModeValue('white', 'gray.800');
+   const bg = useColorModeValue('white', 'blue.900');
    const mobileNav = useDisclosure();
    return (
       <>
@@ -39,7 +39,10 @@ export const Nav = () => {
                   <HStack
                      spacing={1}
                      mr={1}
-                     color="brand.500"
+                     _dark={{
+                        color: 'white',
+                     }}
+                     color="cyan.500"
                      display={{
                         base: 'none',
                         md: 'inline-flex',
@@ -49,7 +52,6 @@ export const Nav = () => {
                      <Button variant="ghost">Pricing</Button>
                      <Button variant="ghost">Blog</Button>
                      <Button variant="ghost">Company</Button>
-                     <Button variant="ghost">Sign in</Button>
                      <ColorModeSwitcher justifySelf="flex-end" />
                   </HStack>
                   <Box
@@ -93,7 +95,6 @@ export const Nav = () => {
                            aria-label="Close menu"
                            onClick={mobileNav.onClose}
                         />
-
                         <Button w="full" variant="ghost">
                            Features
                         </Button>

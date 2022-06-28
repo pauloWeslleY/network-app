@@ -30,9 +30,9 @@ export const Pricing = () => {
 
    return (
       <Flex
-         bg="#edf3f8"
+         bg="gray.800"
          _dark={{
-            bg: 'gray.500',
+            bg: 'blue.500',
          }}
          p={10}
          w="full"
@@ -64,7 +64,7 @@ export const Pricing = () => {
                   borderBottomLeftRadius="lg"
                   bg="white"
                   _dark={{
-                     bg: 'gray.700',
+                     bg: 'blue.400',
                   }}
                   my={6}
                   direction="column"
@@ -120,39 +120,6 @@ export const Pricing = () => {
                         <Feature>Email Tracking and Analytics </Feature>
                         <Feature>99.99% Guaranteed Uptime SLA</Feature>
                      </VStack>
-                     <Box
-                        w="full"
-                        ml={3}
-                        display="inline-flex"
-                        rounded="md"
-                        shadow="md"
-                     >
-                        <chakra.a
-                           w="full"
-                           display="inline-flex"
-                           alignItems="center"
-                           justifyContent="center"
-                           px={5}
-                           py={3}
-                           border="solid transparent"
-                           fontWeight="bold"
-                           rounded="md"
-                           color="brand.600"
-                           _dark={{
-                              color: 'gray.800',
-                           }}
-                           bg="white"
-                           _hover={{
-                              bg: 'brand.50',
-                              _dark: {
-                                 bg: 'gray.700',
-                              },
-                           }}
-                           cursor="pointer"
-                        >
-                           Start your trial{' '}
-                        </chakra.a>
-                     </Box>
                   </VStack>
                </Flex>
                <Flex
@@ -166,7 +133,7 @@ export const Pricing = () => {
                   rounded="lg"
                   bg="white"
                   _dark={{
-                     bg: 'gray.700',
+                     bg: 'blue.400',
                   }}
                   mt={{
                      base: 4,
@@ -213,7 +180,7 @@ export const Pricing = () => {
                      spacing={8}
                      bg="gray.100"
                      _dark={{
-                        bg: 'gray.800',
+                        bg: 'gray.900',
                      }}
                      p={12}
                   >
@@ -229,40 +196,6 @@ export const Pricing = () => {
                         <Feature>1,000 Email Address Validations</Feature>
                         <Feature>Limited 24/7 Ticket Support</Feature>
                      </VStack>
-                     <Box
-                        display="inline-flex"
-                        rounded="md"
-                        shadow="md"
-                        w="full"
-                     >
-                        <chakra.a
-                           w="full"
-                           display="inline-flex"
-                           alignItems="center"
-                           justifyContent="center"
-                           px={5}
-                           py={3}
-                           border="solid transparent"
-                           fontWeight="bold"
-                           rounded="md"
-                           _light={{
-                              color: 'white',
-                           }}
-                           bg="gray.600"
-                           _dark={{
-                              bg: 'brand.500',
-                           }}
-                           _hover={{
-                              bg: 'brand.700',
-                              _dark: {
-                                 bg: 'brand.600',
-                              },
-                           }}
-                           cursor="pointer"
-                        >
-                           Get started
-                        </chakra.a>
-                     </Box>
                   </VStack>
                </Flex>
                <Flex
@@ -278,7 +211,7 @@ export const Pricing = () => {
                   borderTopLeftRadius={0}
                   bg="white"
                   _dark={{
-                     bg: 'gray.700',
+                     bg: 'blue.400',
                   }}
                   my={6}
                   direction="column"
@@ -334,39 +267,6 @@ export const Pricing = () => {
                         <Feature>Email Tracking and Analytics </Feature>
                         <Feature>99.99% Guaranteed Uptime SLA</Feature>
                      </VStack>
-                     <Box
-                        w="full"
-                        ml={3}
-                        display="inline-flex"
-                        rounded="md"
-                        shadow="md"
-                     >
-                        <chakra.a
-                           w="full"
-                           display="inline-flex"
-                           alignItems="center"
-                           justifyContent="center"
-                           px={5}
-                           py={3}
-                           border="solid transparent"
-                           fontWeight="bold"
-                           rounded="md"
-                           color="brand.600"
-                           _dark={{
-                              color: 'gray.800',
-                           }}
-                           bg="white"
-                           _hover={{
-                              bg: 'brand.50',
-                              _dark: {
-                                 bg: 'gray.700',
-                              },
-                           }}
-                           cursor="pointer"
-                        >
-                           Start your trial
-                        </chakra.a>
-                     </Box>
                   </VStack>
                </Flex>
             </Flex>
